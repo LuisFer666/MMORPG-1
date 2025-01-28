@@ -21,6 +21,21 @@ Cada clase presenta una versión según la raza (Humano o demonio)
 7. Asesino humano: utiliza tecnicas de luz y espadas gemelas para hacer ataques rapidos. Su velocidad de movimiento es mayor
 8. Asesino demonio: utiliza tecnicas de sombra y dagas gemelas para hacer daño rapidamente. Se puede hacer invisible y sus ataques por la espalda hacen mas daño
 
+## Evolucion de clases
+Sacerdote humano
+1. Sacerdote (Nivel 1-15)
+2. Clérigo (Nivel 16-30)
+3. Clérigo supremo (Nivel 31-50)
+4. Arcángel (Nivel 51-65)
+5. Santo (Nivel 66-75)
+
+Sacerdote demonio
+1. Acólito oscuro (Nivel 1-15)
+2. Nigromante (Nivel 16-30)
+3. Demonólogo (Nivel 31-50)
+4. Demonio infernal (Nivel 51-65)
+5. Archidemonio (Nivel 66-75)
+
 ## Habilidades activas
 1. Guerrero humano
     * Tiene un porcentaje de probabilidad de bloquear automaticamente un ataque
@@ -31,8 +46,38 @@ Cada clase presenta una versión según la raza (Humano o demonio)
 4. Asesino humano
     * Tiene mayor velocidad de ataque y sus golpes regeneran energía
 
+## Estructura de las aldeas
+* Zonas para los aldeanos
+    - Casas
+    - Taberna
+* Zonas productivas
+    - Zona social (Taberna)
+    - Armería (Armas)
+    - Escudería (Armaduras y escudos)
+    - Corral (Doma de animales para montura)
+    - Establos (Cria de animales de doma)
+    - Biblioteca (Encantamientos)
+* Zonas para farmeo
+    - Herbolaria (Pociones)
+    - Mina (Materia prima para armas y escudos)
+    - Serrería (Materia prima para armas y flechas)
+
 ## Historia
 Humanos vs Demonios (sin especificar aún)
+
+Hay aldeas y hay ciudades
+Los jugadores inician muy lejos del frente de batalla
+El juego va sobre conquistar territorios. Cada conquista se logra después de mantener dominio durante una semana
+Cuando conquistas un territorio, puedes comprar items más baratos en ese territorio
+
+Cada territorio según se va acercando al frente de batalla, tiene mejores items para comprar
+Mejoran en stats pero son cada vez mas caros
+
+Hacer misiones con los NPC te ayuda a bajar los precios
+
+Si eres humano apareces en una aldea de los humanos
+Si eres demonio inicias en una aldea de los demonios
+
 
 ## Gameplay inicial
 1. Inicias eligiendo una raza (humano o demonio)
@@ -53,12 +98,12 @@ Humanos vs Demonios (sin especificar aún)
     -   [x] Ataque 2 (patada)
     -   [x] Caminar
     -   [x] Correr
--   [ ] Agregar Movimientos básicos
-    -   [ ] Caminar (WASD)
-    -   [ ] Correr (WASD + Shift)
-    -   [ ] Ataque 1 (click izquierdo)
-    -   [ ] Defensa (click derecho)
-    -   [ ] Ataque 2 (tecla F)
+-   [x] Agregar Movimientos básicos
+    -   [x] Caminar (WASD)
+    -   [x] Correr (WASD + Shift)
+    -   [x] Ataque 1 (click izquierdo)
+    -   [x] Defensa (click derecho)
+    -   [x] Ataque 2 (tecla F)
 -   [ ] Crear un escenario de pruebas
 -   [ ] Agregar una montura (caballo)
 -   [ ] Agregar drops
